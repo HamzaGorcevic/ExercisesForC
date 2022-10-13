@@ -1,1 +1,1 @@
-rintf("\n sda");
+printf("%d,%d",hours,minute);

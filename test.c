@@ -1,17 +1,45 @@
-
-#include<stdio.h>  
-int main()  
-{   // initialize the local variables.  
-    int l, b, ar, pr;  
-    printf("Enter the length of the rectangle");  
-    scanf("%d", l); // take input from the user  
-    printf("Enter the breadth of the rectangle");  
-    printf("\n Hello world");
-    scanf("%d", b);   
-    ar = l * b; // calculate the area of rectangle.  
-    pr = 2 * (l + b); // calculate the perimeter of rectangle.  
-    printf("\n Area of Rectangle is: %d", ar);  
-    printf("\n Perimeter of Rectangle is: %d", pr);    
-    return 0;
-}    
+#include <stdio.h>
+#include <time.h> //for sleep() function
+#include <unistd.h>
+#include <stdlib.h>
  
+int main()
+{
+    int hour, minute, second;
+     
+    hour=minute=second=0;
+ 
+    while(1)
+    {
+        //clear output screen
+         
+        //print time in HH : MM : SS format
+         
+         //clear output buffer in gcc
+        fflush(stdout);
+         
+         //increase second
+        second++;
+ 
+        //update hour, minute and second
+        if(second==60){
+            minute+=1;
+            second=0;
+        }
+        if(minute==60){
+            hour+=1;
+            minute=0;
+        }
+        if(hour==24){
+            hour=0;
+            minute=0;
+            second=0;
+        }
+         
+        sleep(1); 
+                printf("%02d : %02d : %02d\n ",hour,minute,second);
+  //wait till 1 second
+    }
+ 
+    return 0;
+}
