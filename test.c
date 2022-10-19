@@ -1,45 +1,45 @@
 #include <stdio.h>
-#include <time.h> //for sleep() function
-#include <unistd.h>
 #include <stdlib.h>
+#include <math.h>
  
 int main()
 {
-    int hour, minute, second;
-     
-    hour=minute=second=0;
- 
-    while(1)
-    {
-        //clear output screen
-         
-        //print time in HH : MM : SS format
-         
-         //clear output buffer in gcc
-        fflush(stdout);
-         
-         //increase second
-        second++;
- 
-        //update hour, minute and second
-        if(second==60){
-            minute+=1;
-            second=0;
-        }
-        if(minute==60){
-            hour+=1;
-            minute=0;
-        }
-        if(hour==24){
-            hour=0;
-            minute=0;
-            second=0;
-        }
-         
-        sleep(1); 
-                printf("%02d : %02d : %02d\n ",hour,minute,second);
-  //wait till 1 second
-    }
- 
-    return 0;
-}
+    int broj ;
+    float ocena;
+
+    printf("Unesite neki borj\n");
+    scanf("%d",&broj);
+
+    // if(broj % 2 == 0){
+    //     printf("Broj je paran KKK");
+    // }
+    // else{
+    //     printf("Broj je neparan ");
+    // }
+
+    // if(broj < 0){
+    //     printf("Broj je manji od nule");
+    // }else if(broj > 0){
+    //     printf("Broj je veci od nule");
+    // }else{
+    //     printf("Broj je nula");
+    // }
+
+    // if(broj < broj1){
+    //     broj = broj1;
+        
+    // }
+    // if(broj < broj2){
+    //     broj = broj2;}
+
+
+    // printf("%d",broj);
+
+
+// printf("dobilie ste ocenu  %f", ceil(1.0 * broj / 10)); 
+
+
+//     return 0;
+// }
+
+
