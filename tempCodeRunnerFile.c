@@ -1,1 +1,0 @@
-printf("%d,%d",hours,minute);
