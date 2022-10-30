@@ -154,38 +154,75 @@ int main()
     
  // 4.33
     
-         int n, i, j, nzv=0, kor=1;
-         char rep = ' ';
-         printf(" n= ");
-         scanf("%d", &n);
-         printf("\n");
+        //  int n, i, j, nzv=0, kor=1;
+        //  char rep = ' ';
+        //  printf(" n= ");
+        //  scanf("%d", &n);
+        //  printf("\n");
          
-        for(i=1;i<=n*3;i++){
-            nzv +=kor;
+        // for(i=1;i<=n*3;i++){
+        //     nzv +=kor;
             
-            for(j=1;j<=n*3;j++){
-                printf("%c",rep);
-            }
-            for(j=1;j<=nzv;j++){
-                printf("*");
-            }
-           printf("\n");
+        //     for(j=1;j<=n*3;j++){
+        //         printf("%c",rep);
+        //     }
+        //     for(j=1;j<=nzv;j++){
+        //         printf("*");
+        //     }
+        //    printf("\n");
            
            
            
          
            
            
-            if(i==n){
-                rep = '*';
-            }
-            if(i==3*n/2+1){
-                kor=-1;
-            }
-            if(i==2*n) rep =' ';
+        //     if(i==n){
+        //         rep = '*';
+        //     }
+        //     if(i==3*n/2+1){
+        //         kor=-1;
+        //     }
+        //     if(i==2*n) rep =' ';
 
          
+        // }
+
+        // zadatak 4.37
+
+                int n,i,j;
+        do{
+            printf("unesite broj ");
+            scanf("%d",&n);
         }
+        while(n%2 == 0);
+        printf("+");
+        for(i=0;i<n-2;i++){
+            printf("-");
+        }
+        printf("+\n");
+        
+        for(i=1;i<n-1;i++){
+              
+            printf("|");
+           for(j=1;j<n-1;j++){
+            if(j == n/2 && i==n/2){
+                printf("X");
+              
+            }else if(j==i){
+                printf("\\");
+            }else if(j==n-1-i){
+                printf("/");
+            }else printf(" ");
+           }
+            printf("|\n");
+            
+        }
+        
+        printf("+");
+        for(i=0;i<n-2;i++){
+            printf("-");
+        }
+        printf("+");
 
     return 0;
 }
