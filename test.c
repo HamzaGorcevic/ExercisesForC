@@ -189,40 +189,55 @@ int main()
 
         // zadatak 4.37
 
-                int n,i,j;
-        do{
-            printf("unesite broj ");
-            scanf("%d",&n);
-        }
-        while(n%2 == 0);
-        printf("+");
-        for(i=0;i<n-2;i++){
-            printf("-");
-        }
-        printf("+\n");
+        //         int n,i,j;
+        // do{
+        //     printf("unesite broj ");
+        //     scanf("%d",&n);
+        // }
+        // while(n%2 == 0);
+        // printf("+");
+        // for(i=0;i<n-2;i++){
+        //     printf("-");
+        // }
+        // printf("+\n");
         
-        for(i=1;i<n-1;i++){
+        // for(i=1;i<n-1;i++){
               
-            printf("|");
-           for(j=1;j<n-1;j++){
-            if(j == n/2 && i==n/2){
-                printf("X");
+        //     printf("|");
+        //    for(j=1;j<n-1;j++){
+        //     if(j == n/2 && i==n/2){
+        //         printf("X");
               
-            }else if(j==i){
-                printf("\\");
-            }else if(j==n-1-i){
-                printf("/");
-            }else printf(" ");
-           }
-            printf("|\n");
+        //     }else if(j==i){
+        //         printf("\\");
+        //     }else if(j==n-1-i){
+        //         printf("/");
+        //     }else printf(" ");
+        //    }
+        //     printf("|\n");
             
+        // }
+        
+        // printf("+");
+        // for(i=0;i<n-2;i++){
+        //     printf("-");
+        // }
+        // printf("+");
+
+        // zadatak 5.18
+
+        int n;
+        printf("unesite borj \n");
+        scanf("%d",n);
+
+
+        while (/* condition */)
+        {
+            /* code */
         }
         
-        printf("+");
-        for(i=0;i<n-2;i++){
-            printf("-");
-        }
-        printf("+");
+
+
 
     return 0;
 }
