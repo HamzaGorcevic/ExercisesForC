@@ -224,17 +224,34 @@ int main()
         // }
         // printf("+");
 
-        // zadatak 5.18
+        // zadatak sa casa 
 
-        int n;
-        printf("unesite borj \n");
-        scanf("%d",n);
-
-
-        while (/* condition */)
-        {
-            /* code */
-        }
+        // int n,a,b,c;
+        // printf("unesite broj \n");
+        
+        // scanf("%d",&n);
+        
+        // if(n > 99 && n <999){
+        //     a = n / 100;
+        //     b = n % 100 / 10;
+        //     c = n % 10;
+            
+        // if(a > b && a>c && a!=0){
+        //     printf("ovo je resenje %d%d%d \n",b,a,c);
+        //     printf("ovo je resenje %d%d%d",c,a,b);
+        // }else if(b > a && b>c && b!=0){
+        //     printf("ovo je resenje %d%d%d \n",a,b,c);
+        //     printf("ovo je resenje %d%d%d",c,b,a);
+        // }else if(c > a && c>b && b!=0){
+        //     printf("ovo je resenje %d%d%d \n",a,c,b);
+        //     printf("ovo je resenje %d%d%d",b,c,a);
+        // }
+            
+        // }else{
+        //     printf("drugi borj");
+        //     scanf("%d",&n);
+        // }
+        
         
 
 
