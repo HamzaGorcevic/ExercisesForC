@@ -251,18 +251,17 @@ int main()
         //     printf("drugi borj");
         //     scanf("%d",&n);
         // }
-        #include <stdio.h>
 
-
- int i, x=0;
- for(i=1; i<20; i++)
- {
- if(i%5==0) continue;
- x++;
- if(i==10) break;
- printf("\n x=%d", x);
- }
-  return 10;
+// exercise 7
+//  int i, x=0;
+//  for(i=1; i<20; i++)
+//  {
+//  if(i%5==0) continue;
+//  x++;
+//  if(i==10) break;
+//  printf("\n x=%d", x);
+//  }
+//   return 10;
     
 
         
