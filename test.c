@@ -64,11 +64,11 @@ int main()
 // printf("dobilie ste ocenu  %f", ceil(1.0 * broj / 10)); 
 
 
-     int i, j, n;
-     int addon = 0;
-     printf(" n= ");
-     scanf("%d", &n);
-     printf("\n");
+    //  int i, j, n;
+    //  int addon = 0;
+    //  printf(" n= ");
+    //  scanf("%d", &n);
+    //  printf("\n");
      
     //  for(i=0;i<n;i++){
     //      if(i==0 || i == n-1){
@@ -269,7 +269,35 @@ int main()
 
 
 
-    return 0;
-}
+//     return 0;
+// }
 
 
+
+// ZADATAk za kolkvijum
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n, counter = 0;
+    
+//     scanf("%d",&n);
+//     int m = n;
+//     while(m != 0){
+//          m /= 10;
+//         counter ++;
+         
+//     }
+//     int cifre = pow(10,(counter - 1));
+//     int prvi = n % 10;
+//     int poslednji = n / cifre;
+//     int srednja = n - poslednji * cifre - prvi + poslednji;
+//     printf(" konacno %d%d",prvi,srednja);
+    
+    
+    
+    
+
+
+//     return 0;
+// }
