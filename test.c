@@ -125,3 +125,45 @@
 
 
 //////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////
+
+// 4) Pronaci tacku x i y koja se nalazi u krugu
+
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main()
+// {   
+//     int x,y,r,d;
+//     printf("Unesite tacku x \n");
+//     scanf("%d",&x);
+//     printf("Unesite tacku y \n");
+//     scanf("%d",&y);
+    
+//     int x1 = 3;
+//     int y1 = 2;
+    
+//     //poluprenik
+//     r = 2;
+    
+//     if(pow((x - x1),2) + pow((y-y1),2) <= r*r){
+//         printf("U krugu je");
+        
+//     }else{
+//         printf("Van kruga je");
+//     }
+    
+    
+    
+    
+//     return 0;
+    
+// }
+
+
+
+////////////////////////////////////////////////////////
