@@ -83,9 +83,7 @@
 
 
 
-
-
-/////////////////////////////////////////////////
+///////////////////////////////////////////////////
 
 // 3) Pronaci sumu elementa sa n brojem cifara i sa e elementima , do p indeksa cife 
 
@@ -106,12 +104,18 @@
 //         scanf("%d",&e);
 //         if(i < p){
 //             suma+=e;
-//         }else{
+//         }
+//         if(p > i){
 //             sumaOstatka+=e;
             
 //         }
 //     }
     
+//     if(suma == sumaOstatka){
+//         printf("sredina je ista");
+//     }else{
+//         printf("Nije ista")
+//     }
     
 //     printf("suma %d \n",suma);
 //     printf(" suma ostatka %d \n",sumaOstatka);
@@ -119,4 +123,5 @@
 //     return 0;
 // }
 
-/////////////////////////////////////////////
+
+//////////////////////////////////////////////////
