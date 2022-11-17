@@ -165,5 +165,63 @@
 // }
 
 
-
 ////////////////////////////////////////////////////////
+
+
+
+
+///////////////////////////////////////////////////////
+
+// 5) Napraviti kalkulator koji sve dok se ne unuse "=" racuna brojeve i operacije koje unosimo
+
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int broj1,broj2;
+//     char znak;
+//     int counter = 0;
+//     int suma = 0;
+//     int broj;
+    
+    
+//     while(znak !='='){
+//         counter ++;
+//         printf("unesite znak \n");
+//         scanf(" %c",&znak);
+        
+        
+//         if(znak != '=' ){
+            
+        
+//         if(counter == 1){
+//             printf("unesite  borj \n");
+//             scanf("%d",&broj1);
+//             printf("unesite  borj \n");
+//             scanf("%d",&broj2);
+//             if(znak == '+') suma = broj1 + broj2;
+//             if(znak == '*') suma = broj1 * broj2;
+//             if(znak == '/') suma = broj1 / broj2;
+//             if(znak == '-') suma = broj1 - broj2;
+            
+//         }else{
+//             printf("unesite  borj \n");
+//             scanf("%d",&broj);
+//             if(znak == '+') suma += broj;
+//             if(znak == '*') suma *= broj;
+//             if(znak == '/') suma /= broj;
+//             if(znak == '-') suma -= broj;
+//         }
+//         }
+            
+//         }
+//     printf("suma je %d",suma);
+    
+   
+    
+
+//     return 0;
+// }
+
+///////////////////////////////////////////////////////////
