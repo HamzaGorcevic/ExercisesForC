@@ -225,3 +225,39 @@
 // }
 
 ///////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////
+
+
+// 6) unetom broju proveriti da li su cifre deljive sa 3,ako jesu sabrati te brojeve.Ukoliko je suma brojeva veca od 15 ispisati sumu brojeva
+// i uneti broj,ako nije isprinatni samo sumu
+// #include <stdio.h>
+
+// int main()
+// {
+//     int pomocna;
+//     int element;
+//     int suma = 0;
+//     int broj;
+//     printf("Unesite broj");
+//     scanf("%d",&broj);
+    
+//     pomocna = broj;
+    
+//     while(pomocna > 0){
+//         element = pomocna % 10;
+//         pomocna/=10;
+//         if(element % 3 ==0){
+//             suma +=element;
+//         }
+//     }
+//     if(suma > 15){
+//         printf("suma je %d i broj je %d",suma,broj);
+//     }else printf("suma je %d",suma);
+
+//     return 0;
+// }
+
+
+////////////////////////////////////////////////////////////////
