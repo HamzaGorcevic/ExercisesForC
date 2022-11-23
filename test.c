@@ -267,4 +267,32 @@
 ////////////////////////////////////////////////////////////
 
 
-// printf("Hellow world")
+// 7) Саставити програм који ће за унети низ (дужине n) целих бројева одредити и исписати:
+//а) суму парних и суму непарних бројева; 
+
+//a)
+
+// #include <stdio.h>
+
+// int main()
+// {   
+//     int n ,suma,i;
+//     printf("unesite duziny niza");
+//     scanf("%d",&n);
+//     int array[n];
+    
+//     for(i=0;i<n;i++){
+//         printf("Unesite element");
+//         scanf("%d",&array[i]);
+//         if(array[i] % 2 ==0){
+            
+//             suma +=array[i];
+//         }
+//     }
+//     printf("Ovo je suma %d",suma);
+
+//     return 0;
+// }
+
+
+
