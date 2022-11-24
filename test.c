@@ -349,3 +349,71 @@
    
 //     return 0;
 // }
+
+///////////////////////////////////////////////////////////////
+//9)Napisati program koji na osnovu datog niza realnih brojeva X formira novi niz Y koji sadrži elemente niza X 
+// koji su manji od srednje vrednosti niza X. 
+// Ispisati elemente niza Y. U?itavanje niza X, 
+// formiranje niza Y i ispis niza Y realizovati pomo?u 
+// odvojenih potprograma. 
+
+
+// #define MAX 100
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void formiranje(int array[MAX],int n){
+//     int i,el;
+//     printf("Unesite element");
+//     for(i=0;i<n;i++){
+//         scanf("%d",&el);
+//         array[i] = el;
+//     }
+// }
+
+// int avg(int array[MAX],int n ){
+//     int i,suma=0,avg=0;
+//     for (i=0;i<n;i++){
+//         suma+=array[i];
+        
+//     }
+//     avg = suma / n;
+//     return avg;
+// }
+
+// void ispisY(int array[MAX],int arrayY[MAX],int avg,int n){
+//     int i,counter = 0;
+//     for(i=0;i<n;i++){
+//         if(array[i] < avg){
+//             arrayY[i] = array[i];
+//             counter++;
+//         }
+        
+//     }
+//     for(i=0;i<counter;i++){
+//         printf("%d \n",arrayY[i]);
+//     }
+    
+    
+    
+// }
+
+// int main(){
+//     int n;
+//     printf("Unesite duzinu");
+//     scanf("%d",&n);
+//     int array[n];
+//     int arrayY[n];
+//     int avrage;
+//     formiranje(array,n);
+    
+//     avrage = avg(array,n);
+    
+//     ispisY(array,arrayY,avrage,n);
+    
+    
+    
+    
+//     return 0;
+// }
