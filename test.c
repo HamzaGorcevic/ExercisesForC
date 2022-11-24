@@ -296,3 +296,56 @@
 
 
 
+
+
+///////////////////////////////////////////////////////
+//8) Napisati program kojim se iz datog niza realnih 
+// brojeva X izbacuje maksimalni element. 
+// Nije dozvoljeno koriš?enje pomo?nog niza.
+
+
+
+// #include <stdio.h>
+// #define MAX 100
+
+// void unos(float array[MAX],int n){
+//     int i;
+//     float el;
+//     printf("Unesite elemente:");
+//     for(i=0;i<n;i++){
+//         scanf("%f",&el);
+//         array[i] = el;
+       
+//     }
+// }
+// void ispis(float array[MAX],int n){
+//     int i=0;
+//     for(i=0;i<n;i++){
+//         printf("%.2f \n",array[i]);
+        
+//     }
+// }
+
+// int main()
+// {   int n,i,imax,j;
+//     float max = 0;
+//     printf("unesite n ");
+//     scanf("%d",&n);
+//     float array[n];
+//     unos(array,n);
+//     for(i=0;i<n;i++){
+//         if(array[i] > max){
+//             max = array[i];
+//             imax = i;
+//         }
+        
+//     }
+//     for(i=imax;i<n;i++){
+//             array[i] = array[i+1];
+        
+//     }
+//     ispis(array,n-1);
+
+   
+//     return 0;
+// }
