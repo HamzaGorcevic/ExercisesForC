@@ -417,3 +417,37 @@
     
 //     return 0;
 // }
+
+
+////////////////////////////////////////////////////////////
+//10)Vezba
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int i,m,im;
+//     int array[]={2,3,4,5,43,4,3,3};
+//     printf("Unesite broj koji zelite da izbrisete");
+//     scanf("%d",&m);
+//     for(i=0;i<sizeof(array) / sizeof(array[0]);i++){
+//         if(array[i] == m){
+//             im = i;
+//         }
+//     }
+//     for(i=im;i<sizeof(array) / sizeof(array[0])-1;i++){
+//         array[i] = array[i+1];
+        
+//     }
+//     for(i=0;i<sizeof(array) / sizeof(array[0]);i++){
+//         printf("%d\n",array[i]);
+//     }
+    
+    
+    
+
+//     return 0;
+// }
+
+
+//////////////////////////////////////////////////////////////////
