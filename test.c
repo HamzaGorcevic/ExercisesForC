@@ -451,3 +451,80 @@
 
 
 //////////////////////////////////////////////////////////////////
+
+//11) a)Izbrisati element iz arraya ,koji korisnik unese.
+// b) Izbrisati sve elemente koje user unese;
+//a)
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main(){
+//     int i,j,n;
+//     int size = 6;
+//     int array[100] = {2,3,1,1,23,4};
+    
+//     int delete;
+//     printf("Unesite element koji zelite da izbrisete");
+//     scanf("%d",&delete);
+//     i = 0;
+//     while(i < size){
+//         if(array[i] == delete){
+//             for(j=i;j<size;j++){
+//                 array[j] = array[j+1];
+//             }
+//             size --;
+//             i--;
+           
+//         }
+//        i++;
+        
+//     }
+    
+//     for(i=0;i<size;i++){
+//         printf("%d \n",array[i]);
+//     }
+//     return 0;
+// }
+
+//b)
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main(){
+//     int i,j,n;
+//     int size = 6;
+//     int array[100] = {2,3,1,1,23,4};
+//     int k;
+//     int delete;
+//     int unos;
+//     printf("Unesite koliko elemenata");
+//     scanf("%d",&unos);
+//     int arrayUnos[unos];
+    
+//     for(i=0;i<unos;i++){
+//         int el;
+//         printf("Unesite element");
+//         scanf("%d",&el);
+//         arrayUnos[i] = el;
+        
+//     }
+//     for(i=0;i<size;i++){
+//         for(j=0;j<unos;j++){
+//             if(array[i] == arrayUnos[j]){
+//                 for(k=i;k<size;k++){
+//                     array[k] = array[k+1];
+//                 }
+//                 size--;
+//                 i--;
+                
+//             }
+//         }
+        
+//     }
+//     for(i=0;i<size;i++){
+//         printf("%d \n",array[i]);
+//     }
+//     return 0;
+// }
+
+////////////////////////////////////////////////////////////////
