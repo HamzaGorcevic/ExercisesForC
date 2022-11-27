@@ -614,3 +614,49 @@
     
 // }
 
+////////////////////////////////////////////////////////////////////////////
+
+//13)Isprintati zadatu matricu i transponovanu istu (zbirka 11.12)
+
+// #include <stdio.h>
+// #define MAX 100
+// int main()
+// {
+//     int i,j,k,n,m,el;
+//     int array[MAX][MAX];
+//     printf("Unesi dimenziju matrice");
+//     scanf("%d",&n);
+    
+//     for(i=0;i<n;i++){
+//         array[i][n];
+        
+//         for(j=0;j<n;j++){
+//             printf("Unesite element[%d][%d]",i,j);
+            
+//             scanf("%d",&el);
+//             array[i][j] = el;
+            
+//         }
+//     }
+//     printf("Zadata matrica \n");
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+            
+            
+//             printf("%d ",array[i][j]);
+            
+//         }
+        
+//         printf("\n");
+//     }
+//     printf("Transponovana \n");
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             printf("%d ",array[j][i]);
+//         }
+//         printf("\n");
+//     }
+    
+
+//     return 0;
+// }
