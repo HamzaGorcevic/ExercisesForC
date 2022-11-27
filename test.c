@@ -564,3 +564,53 @@
 //     }
 //     return 0;
 // }
+
+
+
+
+////////////////////////////////////////////////////////////////
+
+//12 Napraviti program pomocu rekurzije koji ce ispisati sve kombinacjie brojeva rekurziom(zbirka:10.26)
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void ispis(int array[],int n){
+//     int i;
+//     for(i=0;i<n;i++) printf("%d " ,array[i]);
+//     printf("\n");
+    
+// }
+
+// void permutacija(int array[],int m,int n){
+//     int i,temp,j;
+//     if(m<=n){
+//         permutacija(array,m+1,n);
+//         for(i=0;i<n-1;i++){
+//         temp = array[i];
+//         array[i] = array[i+1];
+//         array[i+1]= temp;
+//         ispis(array,n);
+        
+        
+//     }
+    
+        
+//     }
+    
+    
+// }
+// int main(){
+    
+//     int n,i;
+//     printf("Unesite vrednost n");
+//     scanf("%d",&n);
+    
+//     int array[n];
+//     for(i=0;i<n;i++){
+//         array[i] = i+1;
+//     }
+//     permutacija(array,1,n);
+//     return 0;
+    
+// }
+
