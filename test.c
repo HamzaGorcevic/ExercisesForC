@@ -528,3 +528,39 @@
 // }
 
 ////////////////////////////////////////////////////////////////
+
+//12)Napraviti program koji ispisuje sve moguce kombinacije brojeva niza
+
+// #include<stdio.h>
+// #include<string.h>
+// #define N 10
+ 
+// void print(int *num, int n)
+// {
+//     int i;
+//     for ( i = 0 ; i < n ; i++)
+//         printf("%d ", num[i]);
+//     printf("\n");
+// }
+// int main()
+// {   int n,i,j,temp;
+//     printf("Unesite duzinu");
+//     scanf("%d",&n);
+    
+//     int array[n];
+//     for(i=0;i<=n;i++){
+//         array[i] = i+1;
+//     }
+    
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n-1;j++){
+//             temp = array[j];
+//             array[j] = array[j+1];
+//             array[j+1] = temp;
+//             print(array,n);
+            
+            
+//         }
+//     }
+//     return 0;
+// }
