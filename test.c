@@ -660,3 +660,70 @@
 
 //     return 0;
 // }
+
+///////////////////////////////////////////////////////////////////////////////
+//13 Mnozenje matrica (zbirka 11.14)
+
+// #include <stdio.h>
+// #define MAX 100
+// int main()
+// {
+//     int n,i,el,k,j;
+//     int counter = 0;
+//     int array[MAX][MAX];
+//     int arrayY[MAX][MAX];
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+            
+//             arrayY[i][j] = array[i][j] * array[j][i];
+//         }
+        
+//     }
+    
+    
+//     printf("Unesite dimenziju");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             printf("%d,%d",i,j);
+//             scanf("%d",&el);
+//             array[i][j] = el;
+//         }
+        
+//     }
+//     printf("ZADATA MATRICA \n");
+    
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             printf(" %d ",array[i][j]);
+//         }
+//         printf("\n");
+//     }
+    
+//     int brojac1 = 0, brojac2 = 0;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             for(k=0;k<n;k++){
+//                         arrayY[i][j] +=array[i][k] * array[k][j];
+                        
+  
+//             }
+            
+//         }
+        
+        
+//     }
+    
+
+//     printf("KVADRIRANA MATRICA \n");
+    
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             printf(" %d ",arrayY[i][j]);
+//         }
+//         printf("\n");
+//     }
+    
+
+//     return 0;
+// }
