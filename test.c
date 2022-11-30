@@ -727,3 +727,95 @@
 
 //     return 0;
 // }
+
+////////////////////////////////////////////////////////////
+//14
+// #define MAX 100
+// #include <stdio.h>
+
+// void unos(int array[MAX][MAX],int n,int m){
+//     int i,j,el;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<m;j++){
+//             scanf("%d",&el);
+//             array[i][j] = el;
+            
+//         }
+//     }
+// }
+// int najviseKvarova(int array[MAX][MAX],int n,int m){
+//     int i,j,brojKvarova,max = 0,imax;
+//     for(i=0;i<n;i++){
+//         brojKvarova = 0;
+//         for(j=0;j<m;j++){
+//             if(array[i][j] > 0){
+//                 brojKvarova++;
+//             }
+            
+//         }
+//         if(brojKvarova > max ){
+//             max = brojKvarova;
+//             imax = i;
+//         }
+//     }
+//     return imax;
+    
+// }
+// int najucestalijiKvar(int array[MAX][MAX],int n,int m){
+//     int i ,j,brojKvarova,imax=0,max =0;
+//     for(i=0;i<m;i++){
+//         brojKvarova = 0;
+//         for(j=0;j<n;j++){
+//             if(array[j][i] > 0){
+//                 brojKvarova++;
+//             }
+            
+            
+//         }
+//         if(brojKvarova > max){
+//             max = brojKvarova;
+//             imax = i;
+//         }
+//     }
+//     return imax;
+    
+// }
+
+// int najviseJedinicia(int array[MAX][MAX],int n,int m){
+//     int i ,j,brojKvarova,imax=0,max =0;
+//     for(i=0;i<n;i++){
+//         brojKvarova = 0;
+//         for(j=0;j<m;j++){
+//             if(array[i][j] == 1){
+//                 brojKvarova++;
+//             }
+            
+            
+//         }
+//         if(brojKvarova > max){
+//             max = brojKvarova;
+//             imax = i;
+//         }
+//     }
+//     return imax;
+    
+// }
+
+
+// int main()
+// {   int array[MAX][MAX] ,n,m;
+//     printf("Unesite koliko automobila");
+    
+//     scanf("%d",&n);
+//     printf("Unesite koliko kvarova ");
+//     scanf("%d",&m);
+    
+//     unos(array,n,m);
+//     printf("Najvise kvarova ima %d \n" ,najviseKvarova(array,n,m));
+//     printf("Najucestali kvar je %d \n",najucestalijiKvar(array,n,m));
+//     printf("Najvise jedinica %d",najviseJedinicia(array,n,m));
+    
+    
+    
+//     return 0;
+// }
