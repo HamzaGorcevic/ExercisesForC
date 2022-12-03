@@ -822,20 +822,12 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-//15)
-
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+//15) zbirka 11.16
 
 // #include <stdio.h>
 // #define MAX 100
 
-// void unos(int array[MAX][MAX] ,int m,int n){
+// void unos(int array[MAX][MAX] ,int array2[MAX][MAX],int m,int n){
 //     int i ,j,el;
 //     for(i=0;i<m;i++){
 //         for(j=0;j<m;j++){
@@ -843,6 +835,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //             printf("[%d][%d]",i,j);
 //             scanf("%d",&el);
 //             array[i][j] = el;
+//             array2[i][j] = el;
 //         }
 //     }
     
@@ -850,40 +843,47 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 
 
-// void stepen(int array[MAX][MAX] ,int arrayStepenovan[MAX][MAX],int arrayStepenovanNaN[MAX][MAX], int m, int n){
-//     int i ,j,k;
-//     for(i=0;i<m;i++){
-//         for(j=0;j<m;j++){
-
-//             for(k=0;k<m;k++){
-//                 arrayStepenovan[i][j] += array[i][k] * array[k][j];
-                
-//             }
-            
-//         }
-//     }
+// void stepen(int array[MAX][MAX] ,int arrayStepenovan[MAX][MAX],int array2[MAX][MAX], int m, int n){
+//     int i ,j,k,s;
     
-//     while(n !=0){
-//         n--;
+    
+
+//     for(s=0;s<m;s++){
+        
+        
+    
 //         for(i=0;i<m;i++){
 //         for(j=0;j<m;j++){
+//             arrayStepenovan[i][j] = 0;
 
 //             for(k=0;k<m;k++){
-//                 arrayStepenovanNaN[i][j] += arrayStepenovan[i][k] * array[k][j];
+//                 arrayStepenovan[i][j] += array[i][k] * array2[k][j];
+                
                 
 //             }
             
 //         }
 //     }
-        
+    
+//     for(i=0;i<m;i++){
+//         for(j=0;j<m;j++){
+//             array2[i][j] = arrayStepenovan[i][j];
+//         }
+//     }
 //     }
     
 // }
+    
+    
+        
+    
+    
 
 
 
 
-// void ispis(int array[MAX][MAX] ,int arrayStepenovan[MAX][MAX],int arrayStepenovanNaN[MAX][MAX],int m, int n){
+
+// void ispis(int array[MAX][MAX] ,int arrayStepenovan[MAX][MAX],int m, int n){
 //     int i ,j;
 //     for(i=0;i<m;i++){
 //         for(j=0;j<m;j++){
@@ -904,15 +904,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     }
     
     
-//     printf("Stepenovana na n \n");
-//     for(i=0;i<m;i++){
-//         for(j=0;j<m;j++){
-//             printf("  %d  ",arrayStepenovanNaN[i][j]);
-            
-//         }
-//         printf("\n");
-//     }
-    
 // }
 
 
@@ -922,18 +913,19 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 // int main()
 // {   
-//     int arrayStepenovanNaN[MAX][MAX];
 //     int array[MAX][MAX];
+//     int array2[MAX][MAX];
 //     int arrayStepenovan[MAX][MAX];
+    
 //     int m,n;
 //     printf("unesite dimenzija ");
 //     scanf("%d",&m);
     
 //     printf("Unesite kojeg stepena");
 //     scanf("%d",&n);
-//     unos(array,m,n);
-//     stepen(array,arrayStepenovan,arrayStepenovanNaN,m,n);
-//     ispis(array,arrayStepenovan,arrayStepenovanNaN,m,n);
+//     unos(array,array2,m,n);
+//     stepen(array,arrayStepenovan,array2,m,n);
+//     ispis(array,arrayStepenovan,m,n);
     
 //     return 0;
 // }
