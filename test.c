@@ -929,3 +929,71 @@
     
 //     return 0;
 // }
+
+
+/////////////////////////////////////////////////////////////////////////////
+//16) Izbaciti sve maksimalne vrednosti iz liste
+
+
+// #define MAX 100
+// #include <stdio.h>
+
+// void unos(int array[MAX],int m){
+//     int i;
+    
+//     printf("Unesite elemente");
+    
+//     for(i=0;i<m;i++){
+//         scanf("%d",&array[i]);
+//     }
+// }
+
+// void trazenjeMaximuma(int array[MAX],int m){
+//     int i,max = 0,maxEL = 0;
+//     for(i=0;i<m;i++){
+//         if(array[i] > maxEL){
+//             max = i;
+//             maxEL = array[i];
+//         }
+//     }
+
+//     for(i=max;i<m;i++){
+//             array[i] = array[i+1];
+//             if(array[i+1] == maxEL){
+//                 array[i] = array[i+1];
+//                 m = m-1;
+                
+//             }
+           
+//     }
+//      m = m-1;
+    
+    
+    
+//     for(i=0;i<m;i++){
+//         printf("[%d]",array[i]);
+//     }
+//     printf("\n");
+// }
+
+
+
+
+// main()
+// {
+    
+    
+//     int m;
+//     int array[MAX];
+//     printf("Unesite duzinu");
+//     scanf("%d",&m);
+    
+//     array[m];
+    
+//     unos(array,m);
+//     trazenjeMaximuma(array,m);
+    
+    
+ 
+//  return 0;
+// }
