@@ -997,3 +997,65 @@
  
 //  return 0;
 // }
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+// 17 ) Rotiranje elemenata iz niza 10.36
+
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+// #include <stdio.h>
+
+// void upis(int array[] ,int m){
+//     int i;
+//     printf("UNESTIE ELEMENTE NIZA \n");
+//     for(i=0;i<m;i++){
+//         scanf("%d",&array[i]);
+//     }
+    
+// }
+
+// void rotiranje(int array[] ,int m){
+    
+//     int i;
+//     int pom = array[0];
+//     for(i=1;i<m;i++){
+//         array[i-1] = array[i];
+//     }
+//    array[m-1] = pom;
+    
+
+
+    
+// }
+// void ispis(int array[],int m){
+//     int i;
+//     for(i=0;i<m;i++){
+//         printf("%d  ", array[i]);
+//     }
+    
+// }
+// int main()
+// {
+//     int m,x,i;
+    
+//     printf("Unesite duzinu niza");
+//     scanf("%d",&m);
+//     printf("Unesite do koliko treba da se rotira \n");
+//     scanf("%d",&x);
+//     int array[m];
+   
+//     upis(array,m);
+//     for(i=0;i<x;i++){
+//         rotiranje(array,m);
+//     }
+//     ispis(array,m);
+//     return 0;
+// }
+
