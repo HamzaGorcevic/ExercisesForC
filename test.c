@@ -1059,3 +1059,76 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     return 0;
 // }
 
+
+/////////////////////////////////////////////////////////////////////////////
+//STRINGOVI
+// 18 )
+// #define MAX 100
+// #include <stdio.h>
+// #include <ctype.h> 
+// #include <string.h>
+
+
+// void brisanje(char item[],char slovo){
+//     int i,j=0,max;
+//     int len;
+//     int k =0;
+//     len = strlen(item);
+   
+//     for(i=0;i<len;i++){
+//         if(item[i] != slovo){
+//             item[j] = item[i];
+//             j++;
+            
+//         }
+//     }
+//     item[j]='\0';
+    
+    
+    
+// }
+
+// int main()
+// {
+//     char item[MAX];
+//     char slovo;
+//     printf("Unesite recenicu\n");
+//     gets(item);
+//     printf("Unesite slovo\n");
+//     scanf("%c",&slovo);
+    
+    
+//     brisanje(item,slovo);
+//     printf("%s",item);
+
+//     return 0;
+// }
+
+//////////////////////////////////////////////////////////////////////////
+
+// 20) zbirka 1.29
+
+// #include <stdio.h>
+// #define MAX 100
+// #include <string.h>
+// #include <ctype.h>
+
+// int main(){
+//     int i;
+//     char word[MAX];
+    
+//     gets(word);
+    
+//     int len = strlen(word);
+//     for(i=len;i>=0;i--){
+        
+//         printf("%c",word[i]);
+        
+        
+//     }
+    
+//     return 0;
+// }
+
+
+/////////////////////
