@@ -1131,4 +1131,36 @@ Write your code in this editor and press "Run" button to compile and execute it.
 // }
 
 
-/////////////////////
+///////////////////////////////////////////////////////////////////////////
+// 21) Napraviti program koji ce da rotira za odredjen broj slogova
+
+// #include <stdio.h>
+// #include <ctype.h>
+
+
+// void premestanje(char word[]){
+//     int i;
+//     int len = strlen(word);
+//     char pomocna = word[0];
+//     for(i=0;i<len;i++){
+//         word[i] = word[i+1];
+        
+//     }
+//     word[len-1] = pomocna;
+    
+// }
+
+// int main(){
+//     char word[100];
+    
+//     int i,rot;
+//     printf("Unesite recenicu");
+//     gets(word);
+//     printf("Unesite za koilko elementa zelite da pomerite");
+//     scanf("%d",&rot);
+//     for(i=0;i<rot;i++){
+//         premestanje(word);
+//     }
+//     printf("%s",word);
+//     return 0;
+// }
