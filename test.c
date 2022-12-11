@@ -1203,3 +1203,86 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //     return 0;
 // }
+
+
+///////////////////////////////////////////////////////////////////////////
+// 23)
+
+// #include <stdio.h>
+// #include <string.h>
+
+// void brisanje(char item[]){
+    
+//     int len;
+    
+//     len = strlen(item);
+//     int k;
+//     int i,j=0,max;
+//     k=len-1;
+//     int brojac = 0;
+    
+//     printf("item %c \n",item[k]);
+   
+//     for(i=0;i<len;i++){
+//         if(item[i] != ' '){
+//             item[j] = item[i];
+//             j++;
+            
+//         }
+//     }
+//     printf("Ovo je rec\n");
+//     item[j]='\0';
+//      for(i=0;i<len-1;i++){
+//          printf("%c",item[i]);
+       
+            
+
+//     }
+//     printf("\n");
+
+    
+
+    
+    
+    
+// }
+// void polindrom(char item[]){
+//     int i,j=0,max;
+  
+//     int brojac = 0;
+//     int len = strlen(item);
+//      int k=len-1;
+    
+//    for(i=0;i<len;i++){
+//             printf("niz[%c] == niz[%c] \n",item[i],item[k]);
+//             if(item[i] == item[k]){
+//                 brojac ++;  
+//             }
+//             k--;
+//         }
+//         if(brojac == len){
+//             printf("Rec je polindrom");
+//         }
+    
+//     printf("%d %d",brojac,len);
+    
+//     printf("OVO JE DUZINA ");
+//     printf("%d",len);
+// }
+
+
+
+// int main()
+// {
+//     char item[] = "ana voli milovana";
+//     int m,i;
+
+//     brisanje(item);
+    
+//     printf("OVO JE DUZINA ");
+//     polindrom(item);
+
+
+
+//     return 0;
+// }
