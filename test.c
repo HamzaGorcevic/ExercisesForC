@@ -1164,3 +1164,42 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     printf("%s",word);
 //     return 0;
 // }
+
+////////////////////////////////////////////////////////////////////
+//18)
+// void unos(int niz[],int m){
+//     int i ,j,el;
+//     printf("Unesite elemente niza");
+//     for(i=0;i<m;i++){
+//         scanf("%d",&niz[i]);
+      
+//     }
+    
+// }
+// #include <stdio.h>
+
+// int main()
+// {
+//     int niz[100];
+//     int m,i;
+//     printf("Unesite duzinu");
+//     scanf("%d",&m);
+//     int brojac=1;
+    
+//     unos(niz,m);
+//     printf("array kad je sam %d \n",niz[2]);
+//     for(i=1;i<=m;i++){
+//         if(niz[i-1] < niz[i]){
+//             printf("niz[%d] < niz[%d]",niz[i-1] ,niz[i]);
+//             brojac++;
+            
+//         }
+//     }
+//     if(brojac == m){
+//         printf("niz je rastuci");
+//     }
+//     printf("ovo je brojac %d",brojac);
+    
+
+//     return 0;
+// }
