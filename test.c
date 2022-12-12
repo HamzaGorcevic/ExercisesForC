@@ -1286,3 +1286,50 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //     return 0;
 // }
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+// 24) Zbirka 9.27
+
+// #include <stdio.h>
+// void crtanje(int m,int n){
+//     int i,j;
+//     for(j=0;j<n;j++){
+//         printf("\n");
+//         if(j==0 || j==n-1){
+            
+//             for(i=0;i<m+2;i++){
+//                 if(i == 0 || i == m+1){
+//                     printf("+");
+//                 }else{
+//                     printf("-");
+//                 }
+        
+        
+//             }
+//         }else{
+//             for(i=0;i<m+2;i++){
+//                 if(i == 0 || i == m+1){
+//                     printf("|");
+//                 }else{
+//                     printf(" ");
+//                 }
+            
+//         }
+//     }
+// }}
+
+// int main()
+// {
+//     int n,m;
+//     printf("Unesite sirinu");
+//     scanf("%d",&n);
+//     printf("Unesite visinu");
+//     scanf("%d",&m);
+    
+//     crtanje(m,n);
+    
+    
+    
+
+//     return 0;
+// }
