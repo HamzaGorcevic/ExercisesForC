@@ -1333,3 +1333,61 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //     return 0;
 // }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+//25) Proveriti da li je rec anagram
+
+// #include <stdio.h>
+// #include <ctype.h>
+// #include <string.h>
+// // vukan kuvan
+
+// int provera(char item[],char svaki,int len,int zbir){
+//     int i;
+    
+    
+//     for(i=0;i<len;i++){
+//         printf("%c==%c \n",svaki,item[i]);
+//         if(svaki == item[i]){
+//             zbir ++;
+//             printf("%d \n",zbir);
+            
+//         }
+//     }
+//     if(zbir == 1){
+//         return zbir;
+//     }else{
+//         return 0;
+//     }
+    
+// }
+
+// int main()
+// {
+//     int n,i;
+//     char item[100];
+//     char item2[100];
+//     int zbir = 0;
+//     int zajednicki = 0;
+//     gets(item);
+//     gets(item2);
+    
+//     int len = strlen(item);
+//     int len2 = strlen(item2);
+
+//     for(i=0;i<len;i++){
+
+//         zajednicki += provera(item2,item[i],len,zbir);
+        
+//     }
+//     if(zajednicki == len){
+//         printf("Rec ja angaram");
+//     }
+//     printf("%d ovo su ",zajednicki);
+    
+    
+   
+
+//     return 0;
+// }
