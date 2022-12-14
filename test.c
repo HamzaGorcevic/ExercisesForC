@@ -1391,3 +1391,33 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //     return 0;
 // }
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//26) Pointers 
+// #include <stdio.h>
+// #include <stdlib.h>
+// void funkcija(float *kolickin,float *razlika,float x,float y){
+    
+//     *kolickin = x / y;
+//     *razlika = x-y;
+    
+// }
+
+// int main(){
+    
+//     float x,y ,kolickin,razlika;
+//     scanf("%f",&x);
+//     scanf("%f",&y);
+    
+
+//     funkcija(&kolickin,&razlika,x,y);
+    
+    
+//     printf("%2.f /// %2.f",razlika,kolickin);
+    
+    
+    
+    
+//     return 0;
+// }
