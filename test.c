@@ -1421,3 +1421,133 @@ Write your code in this editor and press "Run" button to compile and execute it.
     
 //     return 0;
 // }
+
+/////////////////////////////////////////////////////////////////////////////////
+
+// 27)Zadatak radionica domaci
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// void unos(int **radionica,int m,int n){
+//     int i,j;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<m;j++){
+//             scanf("%d",&radionica[i][j]);
+            
+//         }
+//     }
+// }
+
+// int popravljen(int ** radionica,int m,int n){
+//     int i,j,popravljenih,br=0;
+//     for(i=0;i<n;i++){
+//         popravljenih = 1;
+//         for(j=0;j<m;j++){
+//             if(radionica[i][j] == 1){
+//                 popravljenih = 0;
+//             }
+            
+//         }
+//         if(popravljenih == 1){
+//             br++;
+//         }
+//     }
+//     return br;
+    
+// }
+
+// int najvisePokvaren(int ** radionica,int m,int n){
+//     int i,j,semafor,brojac,max=0,imax=0;
+//     for(i=0;i<n;i++){
+//         brojac = 0;
+//         for(j=0;j<n;j++){
+//             if(radionica[i][j] !=0 && radionica[i][j] !=2){
+//                 brojac ++;
+//             } 
+            
+//         }
+        
+//         if(brojac > max){
+//             max = brojac;
+//             imax = i;
+//         }
+        
+//     }
+//     return imax;
+// }
+
+
+// int najvcestijiKvar (int **radionica,int m,int n){
+    
+//     int i,j,kvar2=0,kvar1=0;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             if(radionica[i][j] == 2){
+//                 kvar2++;
+//             }
+//             if(radionica[i][j] == 1){
+//                 kvar1++;
+                
+//             } 
+//         }
+//     }
+//     if(kvar1 > kvar2){
+//         return 1;
+//     }
+//     return 2;
+// }
+
+
+// void ispis(int ** radionica,int m,int n){
+//     int i,j;
+//     for(i=0;i<n;i++){
+//         for(j=0;j<m;j++){
+//             printf(" %d " ,radionica[i][j]);
+            
+//         }
+//         printf("\n");
+//     }
+    
+// }
+// int main()
+// {
+//     int j,i,m,n;
+//     int **radionica;
+    
+//         printf("Unesite broj automobila");
+//         scanf("%d",&n);
+//                 printf("Unesite broj kvarova");
+//         scanf("%d",&m);
+        
+        
+//      radionica = (int**)malloc(n * sizeof(int));
+     
+//         if(radionica == NULL){
+//             printf("Doslo je do greske");
+//         }
+        
+//         for(i=0;i<n;i++){
+//             radionica[i] = (int*)(malloc(m*sizeof(n)));
+//             if(radionica[i] == NULL){
+//                 printf("Doslo je do greske");
+//                  for(j=0;j<i;j++)
+
+//                     free(radionica[j]);
+
+//                     free(radionica);
+//             }
+//         }
+        
+    
+//     unos(radionica,m,n);
+    
+//     printf("koliko je popravljenih %d \n",popravljen(radionica,m,n));
+//     printf("najvise pokvaren je %d \n",najvisePokvaren(radionica,m,n));
+//         printf("najucstaliji kvaj je %d \n",najvcestijiKvar(radionica,m,n));
+    
+//     ispis(radionica,m,n);
+
+//     return 0;
+// }
