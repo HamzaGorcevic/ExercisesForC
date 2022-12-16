@@ -1624,3 +1624,90 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //  return 0;
 // }
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+// 31) ne zavrsen  lift
+// #include <stdio.h>
+// #define MAX 100
+// #include <stdlib.h>
+// #include <string.h>
+// #include <ctype.h>
+
+// int kapacitet(int masa,int brojLjudi,int maxMasa,int maxLjudi){
+//     if(masa > maxMasa){
+//         printf("presli se masu");
+//         return 0;
+//     }
+//     if(maxLjudi < brojLjudi){
+//         printf("presli ste ljude");
+//         return 0;
+//     }else{
+//         return 1;
+//     }
+    
+// }
+// main()
+// {
+
+// char **ljudi;
+// int brojLjudi=0,i,j,*p,*kilaze,masa=0,maxMasa,maxLjudi=0;
+
+// printf("Unesite maximalnu kilazu");
+
+// scanf("%d",&maxMasa);
+// printf("Unesite maksimalan broj ljudi");
+// scanf("%d",&maxLjudi);
+
+// printf("Koliko ljudi ce uci u lift");
+// scanf("%d",&brojLjudi);
+
+// ljudi = malloc(brojLjudi * sizeof(char*));
+// kilaze = (int**) malloc(brojLjudi *sizeof(int));
+
+// if(kapacitet(masa,brojLjudi,maxMasa,maxLjudi)){
+    
+
+
+
+// if(ljudi == NULL){
+//     printf("Error");
+// }
+
+
+// char covek[MAX];
+// for(i=0;i<brojLjudi;i++){
+//     printf("Unesit %d osobu",i);
+//     while(getchar() != '\n');
+//     gets(covek);
+    
+//     printf("Unesite kilazu korisnika");
+//     scanf("%d",&kilaze[i]);
+    
+//     masa +=kilaze[i];
+    
+//     int len = sizeof(covek);
+    
+//     ljudi[i] = malloc(len * sizeof(char));
+    
+//     strcpy(ljudi[i],covek);
+    
+// }
+// printf("\n");
+// kapacitet(masa,brojLjudi,maxMasa,maxLjudi);
+
+// for(i=0;i<brojLjudi;i++){
+//     printf("\n");
+    
+//     ljudi[i][0] = toupper(ljudi[i][0]);
+    
+    
+//     printf("%s ",ljudi[i]);
+//     printf("%d",kilaze[i]);
+// }
+// }
+
+
+
+//  return 0;
+// }
