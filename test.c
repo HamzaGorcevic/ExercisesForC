@@ -1551,3 +1551,32 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //     return 0;
 // }
+
+
+///////////////////////////////////////////////////////////////////////////////
+// 29 )Poredjenje stringova 
+
+// #include <stdio.h>
+// #define MAX 100
+// main()
+// {
+//  char s[MAX], *p;
+//  printf("\n Unesite string: ");
+//  gets(s);
+//  p=s;
+//  printf("%d",&s);
+ 
+ 
+//  printf("ovde je p %d \n",*p <= 'd');
+ 
+ 
+//  while(*p)
+//  {
+//  if(*p >='a' && *p<='z')
+//  *p= *p-('a'-'A');
+//  p++;
+//  }
+//  printf(" Novi string: ");
+//  puts(s);
+//  return 0;
+// }
