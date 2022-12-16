@@ -1580,3 +1580,47 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //  puts(s);
 //  return 0;
 // }
+
+/////////////////////////////////////////////////////////////////////////////////////
+//30)Allocating memory with strings
+
+// #include <stdio.h>
+// #define MAX 100
+// #include <stdlib.h>
+// #include <string.h>
+// main()
+// {
+
+// char **recenica;
+// int n,i;
+
+// printf("Unesite duzinu recenice");
+// scanf("%d",&n);
+
+// recenica = malloc(n*sizeof(char**));
+
+
+// while(getchar() != '\n');
+
+//     char rec[MAX];
+    
+// for(i=0;i<n;i++){
+
+    
+//     fgets(rec,MAX,stdin);
+//     int leng = strlen(rec);
+//     recenica[i] = malloc(leng * sizeof(char));
+//     strcpy(recenica[i],rec);
+    
+    
+// }
+
+// printf("Printed \n");
+// for(i=0;i<n;i++){
+//     printf("%s",recenica[i]);
+    
+// }
+// printf("\n");
+
+//  return 0;
+// }
