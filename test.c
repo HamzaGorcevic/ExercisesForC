@@ -1647,15 +1647,73 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     }
     
 // }
+// int proverava(char ** ljudi,int brojLjudi,char *osobaIzlazi){
+//     int i ,j;
+//     for(i=0;i<brojLjudi;i++){
+        
+//         ///////d ovde sam stigo
+//         printf("%s==========%s",osobaIzlazi,ljudi[i]);
+//         if(strcmp(osobaIzlazi,ljudi[i]) ==0){
+//             return 1;
+//         }else{
+//             return 0;
+//         }
+
+        
+//     }
+    
+    
+// }
+// void filter(char **ljudi,int brojLjudi,char *osobaIzlazi,int naIndexu){
+//     int i,j,saveI;
+
+//     for(i=naIndexu;i<brojLjudi;i++){
+//         strcpy(ljudi[i],ljudi[i+1]);
+//     }
+    
+//      for(i=0;i<brojLjudi;i++){
+//         printf("%s",ljudi[i]);
+//     }
+//     printf("\n");
+
+
+// }
+// int spratovi(char **ljudi,int spratovi,int brojLjudi){
+//     int i,j;
+//     char *osobaIzlazi;
+//     char pomocna[MAX];
+//     while(getchar() != '\n');
+//     for(i=0;i<spratovi;i++){
+//         printf("Ime osobe koja izlazi na %d spratu" ,i+1);
+//         gets(pomocna);
+//         int len = sizeof(pomocna);
+//         osobaIzlazi = malloc(len * sizeof(char));
+//         strcpy(osobaIzlazi,pomocna);
+        
+//         if(proverava(ljudi,brojLjudi,osobaIzlazi)){
+            
+//             brojLjudi --;
+//             filter(ljudi,brojLjudi,osobaIzlazi,i);
+            
+//         }else{
+//             printf(" \n ok \n");
+//         }
+//     }
+// }
 // main()
 // {
 
 // char **ljudi;
-// int brojLjudi=0,i,j,*p,*kilaze,masa=0,maxMasa,maxLjudi=0;
+// int brojLjudi=0,i,j,*p,*kilaze,masa=0,maxMasa,maxLjudi=0,brojSpratova;
+
+// printf("Unesite broj spratova");
+// scanf("%d",&brojSpratova);
+    
 
 // printf("Unesite maximalnu kilazu");
 
 // scanf("%d",&maxMasa);
+
 // printf("Unesite maksimalan broj ljudi");
 // scanf("%d",&maxLjudi);
 
@@ -1676,8 +1734,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 
 // char covek[MAX];
+
 // for(i=0;i<brojLjudi;i++){
-//     printf("Unesit %d osobu",i);
+//     printf("Unesit %d osobu",i+1);
 //     while(getchar() != '\n');
 //     gets(covek);
     
@@ -1691,7 +1750,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     ljudi[i] = malloc(len * sizeof(char));
     
 //     strcpy(ljudi[i],covek);
-    
 // }
 // printf("\n");
 // kapacitet(masa,brojLjudi,maxMasa,maxLjudi);
@@ -1699,12 +1757,12 @@ Write your code in this editor and press "Run" button to compile and execute it.
 // for(i=0;i<brojLjudi;i++){
 //     printf("\n");
     
-//     ljudi[i][0] = toupper(ljudi[i][0]);
-    
-    
-//     printf("%s ",ljudi[i]);
+//     printf("%s",ljudi[i]);
 //     printf("%d",kilaze[i]);
 // }
+// printf("\n");
+// spratovi(ljudi,brojSpratova,brojLjudi);
+
 // }
 
 
