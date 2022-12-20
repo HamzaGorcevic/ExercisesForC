@@ -1774,69 +1774,143 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //32)
 // #include <stdio.h>
+// #define MAX 100
 // #include <stdlib.h>
+// #include <string.h>
+// #include <ctype.h>
+
+// int kapacitet(int masa,int brojLjudi,int maxMasa,int maxLjudi){
+//     if(masa > maxMasa){
+//         printf("presli se masu");
+//         return 0;
+//     }
+//     if(maxLjudi < brojLjudi){
+//         printf("presli ste ljude");
+//         return 0;
+//     }else{
+//         return 1;
+//     }
+    
+// }
+
+
+
+
+
+
+//  void spratovi(char **ljudi,int spratovi,int brojLjudi,char ** ostaliLjudi){
+
+    
+//     int i,j=0,k=0,l;
+//     char *osobaIzlazi;
+//     char pomocna[MAX];
+//     while(getchar() != '\n');
+//     for(i=0;i<spratovi;i++){
+//         printf("Ime osobe koja izlazi na %d spratu \n" ,i+1);
+//         gets(pomocna);
+//         int len = sizeof(pomocna);
+//         osobaIzlazi = malloc(len * sizeof(char));
+//         strcpy(osobaIzlazi,pomocna);
+
+//         for(l=0;l<brojLjudi;l++){
+
+//         if(strcmp(osobaIzlazi,ljudi[l]) != 0){
+//             ostaliLjudi[l] = ljudi[j];
+//             j++;
+//         }else{
+//             ostaliLjudi[i] = "prazno";
+            
+//         }
+        
+
+//     }
+        
+//     }
+//     return 0;
+    
+// }
+
+
+
+
+
 // main()
 // {
-//  int *s1, *s2, *s3;
-//  int n1, n2, n3, i, j;
-//  printf ("\n Broj elemenata niza S1: ");
-//  scanf ("%d", &n1);
-//  s1=malloc(n1*sizeof(int));
-//  printf(" Elemenata niza S1= ");
-//  for(i=0; i<n1; i++)
-//  scanf("%d", &s1[i]);
-//  if(n1==0) printf("\n");
-//  printf("\n Broj elemenata niza S2= ");
-//  scanf("%d", &n2);
-//  s2=malloc(n2*sizeof(int));
-//  printf(" Elementi niza S2: ");
-//  for(i=0; i<n2; i++)
-//  scanf("%d", &s2[i]);
-//  if(n2==0) printf ("\n");
-//  /*Unija dva skupa*/
-//  s3=malloc((n1+n2)*sizeof(int));
-//  for(n3=0; n3<n1; n3++)
-//  s3[n3] = s1[n3];
-//  for(j=0; j<n2; j++)
-//  {
-//  for(i=0; i<n1 && s1[i]!=s2[j]; i++);
-//  if(i == n1)
-//  s3[n3++] = s2[j];
-//  }
-//  s3=realloc(s3, n3*sizeof(int));
-//  printf("\n S1+S2= ");
-//  for(i=0; i<n3; i++)
-//  printf("%d ", s3[i]);
-//  free(s3);
-//  /*Presek dva skupa*/
-//  s3=malloc((n1<n2 ? n1 : n2)*sizeof(int));
-//  for(n3=i=0; i<n1; i++)
-//  {
-//  for(j=0; j<n2 && s1[i]!=s2[j]; j++);
-//  if(j < n2)
-//  s3[n3++] = s1[i];
-//  }
-//  s3=realloc(s3, n3*sizeof(int));
-//  printf("\n S1*S2= ");
-//  for(i=0; i<n3; i++)
-//  printf("%d ", s3[i]);
-//  free(s3);
-//  /*Razlika dva skupa*/
-//  s3=malloc(n1*sizeof(int));
-//  for(n3=i=0; i<n1; i++)
-//  {
-//  for(j=0; j<n2 && s1[i]!=s2[j]; j++);
-//  if(j == n2)
-//  s3[n3++] = s1[i];
-//  }
-//  s3=realloc(s3, n3*sizeof(int));
-//  printf ("\n S1-S2= ");
-//  for(i=0; i<n3; i++)
-//  printf("%d ", s3[i]);
-//  free(s3);
 
-//  free(s1);
-//  free(s2);
+// char **ljudi;
+// char **ostaliLjudi;
+
+
+// int brojLjudi=0,i,j,*p,*kilaze,masa=0,maxMasa,maxLjudi=0,brojSpratova;
+
+// printf("Unesite broj spratova");
+// scanf("%d",&brojSpratova);
+    
+
+// printf("Unesite maximalnu kilazu");
+
+// scanf("%d",&maxMasa);
+
+// printf("Unesite maksimalan broj ljudi");
+// scanf("%d",&maxLjudi);
+
+// printf("Koliko ljudi ce uci u lift");
+// scanf("%d",&brojLjudi);
+
+// ljudi = malloc(brojLjudi * sizeof(char*));
+// ostaliLjudi = malloc(brojLjudi * sizeof(char*));
+
+
+// kilaze = (int**) malloc(brojLjudi *sizeof(int));
+
+// if(kapacitet(masa,brojLjudi,maxMasa,maxLjudi)){
+    
+
+
+
+// if(ljudi == NULL){
+//     printf("Error");
+// }
+
+
+// char covek[MAX];
+
+// for(i=0;i<brojLjudi;i++){
+//     printf("Unesit %d osobu",i+1);
+//     while(getchar() != '\n');
+//     gets(covek);
+    
+//     printf("Unesite kilazu korisnika");
+//     scanf("%d",&kilaze[i]);
+    
+//     masa +=kilaze[i];
+    
+//     int len = sizeof(covek);
+    
+//     ljudi[i] = malloc(len * sizeof(char));
+    
+//     strcpy(ljudi[i],covek);
+// }
+// printf("\n");
+// kapacitet(masa,brojLjudi,maxMasa,maxLjudi);
+
+// for(i=0;i<brojLjudi;i++){
+//     printf("\n");
+    
+//     printf("%s",ljudi[i]);
+//     printf("%d",kilaze[i]);
+// }
+// printf("\n");
+// spratovi(ljudi,brojSpratova,brojLjudi,ostaliLjudi);
+
+// }
+
+// printf("\n");
+// printf("Ispis ostalih u lift \n");
+// printf("U main \n");
+//         for(i=0;i<brojLjudi;i++){
+//             printf("%s",ostaliLjudi[i]);
+//         }
 
 //  return 0;
-// } 
+// }
