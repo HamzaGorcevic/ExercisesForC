@@ -1914,3 +1914,48 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 //  return 0;
 // }
+
+
+////////////////////////////////////////////////////////////////////////////
+//33) NIJE ZAVRSEN OCENE
+// #include <stdio.h>
+// #include <string.h>
+// int main ( int argc, char **argv ) {
+//     FILE *fp = fopen ( "ocene.txt", "r");
+//     char line[1024];
+//     int index = 0;
+//     char nes[100];
+//     char sve[500];
+//     int bool = 1;
+//     int i=0;
+//     char topG[100][100];
+//     int j=0;
+//     int brojac=0;
+// 	    if(fp ==NULL){
+//     	printf("NE radi");
+//     	return 1;
+// 	}
+//     int duzina=0;
+//     while(1){
+//     	fgets(nes,sizeof(nes),fp);
+//     	printf("%s \n",nes);
+    	
+//     	duzina = strlen(nes);
+    	
+//     	for(i=0;i<duzina;i++){
+//     		if(nes[i] != ' '){
+//     			brojac++;
+// 			}
+    		
+// 		}
+// 		printf("()%d()",brojac);
+    	
+//     	if(feof(fp)){
+//     		break;
+// 		}
+		
+// 	}
+//     fclose ( fp );
+
+//     return 0;
+// }
