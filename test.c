@@ -1960,3 +1960,79 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //     return 0;
 // }
 ////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////
+//not working code
+// int a[30][30];atricaPosle;
+// 	int m,n,i,j;
+// 	char naziv[100];
+// 	char naziv2[100];
+// 	printf("Unesite ime fajla \n");
+// 	scanf("%s",&naziv);
+// 	matrica = fopen(naziv,"r");
+// 	int moveKolone;
+// 	int moveVrstel;
+// 	liko kolona da pomerimo")
+	
+	
+	
+// 	if(matrica == NULL){
+// 		printf("Ne radi \n");
+// 	}
+// 	fscanf(matrica,"%d%d",&m,&n);
+// 	printf("%d=m %d=n",m,n);
+// 	printf("Unesite novokreirani fajl");
+// 	scanf("%s",&naziv2m;
+	
+	
+// 	matricaPosle = fopen(naziv2,"w");
+// 	fprintf(matricaPosle ,"%d %d \n",n,m);
+	
+// 	%d \n",n,m);
+// 	printf("%dm,matrica[0][0]);fopen
+// 	for(i=0;i<nni++){
+// 		ffscanfor(j=0;jmatrica<m;j+)&a{
+// 			fprintf(matricaPoslenaziv2,"%d ",matrica[i][j]);
+	
+// 	for(i=0;i<m;i++){
+// 		for(j=0;j<n;j++){
+// 			printfscan f(atrica,"%d",&a[i][j]);
+// 		} 	
+// 		printf("\n");
+// 	}
+// 	fclose(matrica);
+	
+// 	int max = a[0][0];
+// 	int min = a[0][0];
+// 	int imax,imin;
+// 	for(i=0;i<m;i++){
+// 		int suma =0;
+// 		for(j=0;j<m;j++){
+// 			suma+=a[i][j];
+// 		}
+// 		if(suma > max){
+// 			max = suma;
+// 			imax=i;
+// 		}
+// 		if(suma < min){
+// 			imin = suma;
+// 			imin=i;
+// 		}
+// 	}	for(i=0;i<m;i++){
+// 			for(j-
+// 		}
+		
+// 		printf("Najveca kolona je %d ,najmanja kolona je %d",imax,imin);
+// 		fprintf(matricaPosle,"%d %d \n",n,m);
+// 		for(i=0;i<m;i++){
+// 		for(j=0;j<n;j++){
+// 			fprintfscanf(maPosletric a,%d",&a[i][j]);
+// 		} 	
+// 		fprintf(matricaPosle,"\n");
+// 	}
+		
+// 		fprintf("\n",matricaPosle)naziv2;
+		
+// 	}atricaPos)
+// 	return 0;
+// }
