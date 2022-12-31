@@ -2036,3 +2036,54 @@ Write your code in this editor and press "Run" button to compile and execute it.
 // 	}atricaPos)
 // 	return 0;
 // }
+
+
+////////////////////////////////////////////////////////////////////
+//Elevator with files
+// #include <stdio.h>
+// #include <stdlib.h>
+// struct Korisnik{
+// 	char ime[12];
+// 	int kg;
+// 	int sprat;
+// };
+
+// int main(int argc, char *argv[]) {
+// 	int j,i=0,brojMax,kilazaMax,suma=0;
+	
+// 	FILE* Podaci = fopen("podaci.txt","w");
+// 	if(Podaci == NULL){
+// 		printf("Ne radi");
+// 		exit(1);
+// 	}
+// 	printf("Unesite koliko korisnika moze uci u lift i maksimalnu kilazu lifta \n");
+// 	scanf("%d",&brojMax);
+// 	scanf("%d",&kilazaMax);
+// 	fprintf(Podaci, "U liftu najvise moze uci %d ljud sa ukupnom kilazom od %d \n",brojMax,kilazaMax);
+// 	char korisnikMaker[12];
+// 	while(i < brojMax && suma < kilazaMax){
+	
+// 		i++;
+// 		strcpy(korisnikMaker,"korisnik" + i);
+// 		struct Korisnik korisnikMaker;
+		
+		
+// 		printf("Unesite ko ulazi u lift \n");
+// 		scanf("%s",&korisnikMaker.ime);
+// 		if(korisnikMaker.ime[0] == 'f'){
+// 			break;
+// 		}
+// 		printf("Koliko je %s tezak \n",korisnikMaker.ime);
+// 		scanf("%d",&korisnikMaker.kg);
+// 		printf("Na kom spratu izlazi %s \n",korisnikMaker.ime);
+// 		scanf("%d",&korisnikMaker.sprat);
+
+		
+// 		fprintf(Podaci,"Ime:%s \n kilaza:%d \n izlazi na %d spratu \n",korisnikMaker.ime,korisnikMaker.kg,korisnikMaker.sprat);
+// 		suma += korisnikMaker.kg;
+	
+		
+// 	}
+// 		fprintf(Podaci," \n Ukupno su teski %d",suma);
+// 	return 0;
+// }
