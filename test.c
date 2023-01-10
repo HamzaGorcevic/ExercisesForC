@@ -2087,3 +2087,33 @@ Write your code in this editor and press "Run" button to compile and execute it.
 // 		fprintf(Podaci," \n Ukupno su teski %d",suma);
 // 	return 0;
 // }
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+// #include <stdio.h>
+// #include <stdlib.h>
+
+
+// int main(int argc, char *argv[]) {
+// 	int *array;
+// 	int n,i,j;
+// 	printf("unesite duzinu niza \n");
+// 	scanf("%d",&n);
+// 	array = (int*) malloc(n*sizeof(int*));
+// 	for(i=0;i<n;i++){
+// 		scanf("%d",&array[i]);
+// 	}
+// 	int pom;
+// 	for(i=0;i<n;i++){
+// 		for(j=0;j<n;j++){
+// 			if(array[i] < array[j]){
+// 				pom = array[i];
+// 				array[i] = array[j];
+// 				array[j] = pom;
+				
+				
+// 			}
+// 		}
