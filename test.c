@@ -2092,7 +2092,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 
 
-///////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////// SORT ARray
 // #include <stdio.h>
 // #include <stdlib.h>
 
@@ -2117,3 +2117,83 @@ Write your code in this editor and press "Run" button to compile and execute it.
 				
 // 			}
 // 		}
+///////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+// da li je u ravnotezi
+
+//#include <stdio.h>
+//provera(int niz[],int n,int p){
+//	int i,j,sumaDoP=0,sumaOdP=0;
+//	for(i=0;i<p;i++){
+//		sumaDoP +=niz[i];
+//		for(j=p;j<n;j++){
+//			sumaOdP+=niz[j];
+//		}
+//	}
+//	if(sumaDoP == sumaOdP){
+//		return 1;
+//	}else{
+//		return 0;
+//	}
+//	
+//	
+//}
+//int main(){
+//	int n,*niz,p,i;
+//	printf("Unesite duzinu niza");
+//	scanf("%d",&n);
+//	niz = (int*) malloc(n*sizeof(int*));
+//	for(i=0;i<n;i++){
+//		scanf("%d",&niz[i]);
+//	}
+//	printf("unesite do kog elementa proveriti ravnotezu \n");
+//	
+//	scanf("%d",&p);
+//	provera(niz,n,p);
+//	
+//	
+//	return 0;
+//}
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+// zadatak za brisanje od charactera do charactera
+//#include <string.h>
+//#include <stdio.h>
+//
+//int main(){
+//
+//	char recenica[200];
+//	gets(recenica);
+//	
+//	int i=0,j,suma=0,starting;
+//	int recenicaLen = strlen(recenica);
+//	
+//	
+//	while(recenica[i] != '*'){
+//		printf("%c\n",recenica[i]);
+//		i++;
+//	}
+//	int brojza;
+//	for(j=i;j<recenicaLen;j++){
+//		if(recenica[j]=='*'){
+//			brojza=j;
+//			
+//		}
+//	}
+//	printf("%d and %d \n",i,brojza);
+//	
+//	memmove(&recenica[i-1],&recenica[brojza+1],recenicaLen - (brojza-i));
+//	printf("al je nema ovde %s \n",recenica);
+//	
+//
+//
+//	
+//	return 0;
+//}
+
