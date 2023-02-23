@@ -2197,3 +2197,84 @@ Write your code in this editor and press "Run" button to compile and execute it.
 //	return 0;
 //}
 
+
+//////////////////////////////////////////////////////////
+// Zadatak sa kolokvijuma 2023;
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// struct Izvrsena {
+//     char imePrezime[100];
+//     int racun;
+//     int stanje;
+//     int transakcija;
+// };
+
+// struct Transakcije{
+// 	int racun1;
+// 	int racun2;
+// 	int iznos;
+// 	int transakcija;
+	
+// };
+// int main() {
+//     FILE *racuni,*transk;
+    
+//     racuni = fopen("racuni.txt", "r");
+//     transk = fopen("transakcije.txt","r");
+//     if (racuni == NULL || transk == NULL) {
+//         printf("Greska pri otvaranju fajla.");
+//         return 1;
+//     }
+    
+    
+//     int i = 0;
+//     struct Izvrsena izvrsena[200];
+    
+    
+    
+//     while (fscanf(racuni, "%s %d %d %d", izvrsena[i].imePrezime,
+// 	 &izvrsena[i].racun, &izvrsena[i].stanje, &izvrsena[i].transakcija)  == 4){
+
+//         i++;
+//     }
+    
+//     int k=0;
+
+//     struct Transakcije transc[200];
+    
+//     while (fscanf(transk, "%d %d %d %d", &transc[k].racun1,
+// 	 &transc[k].racun2, &transc[k].iznos, &transc[k].transakcija)  == 4){
+//         k++;
+//     }
+    
+    
+// int j;
+// for(j=0;j<i;j++){
+
+//         int l=0;
+//         for(l=0;l<i;l++){
+//         	if(izvrsena[j].racun == transc[l].racun1){
+//         		izvrsena[j].stanje -=transc[l].iznos;
+        		
+// 			}
+// 			if(izvrsena[j].racun == transc[l].racun2){
+// 				izvrsena[j].stanje +=transc[l].iznos;
+// 			}
+        	
+// 		}
+    
+// }
+// for(j=0;j<i;j++){
+	
+// 	fprintf(racuni,"%s",izvrsena[j].imePrezime)
+// 	fprintf(racuni,"%d",izvrsena[j].racun);
+	
+        
+        
+// }
+
+// return 0;
+// }
+
+
